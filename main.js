@@ -64,8 +64,15 @@ async function initQuestion() {
   document.getElementById('label-max').textContent = question.labelMax;
 
   // Progress
-  const progress = ((qId + 1) / questions.length) * 100;
-  document.getElementById('progress-fill').style.width = progress + '%';
+  const previousProgress = (qId / questions.length) * 100;
+  const currentProgress = ((qId + 1) / questions.length) * 100;
+  const fill = document.getElementById('progress-fill');
+  fill.style.transition = 'none';
+  fill.style.width = previousProgress + '%';
+  // Force reflow
+  fill.offsetHeight;
+  fill.style.transition = 'width 0.4s ease';
+  fill.style.width = currentProgress + '%';
 
   const slider = document.getElementById('question-slider');
   const valueDisplay = document.getElementById('question-value');
