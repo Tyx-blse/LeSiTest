@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "question": "Vous rentrez d'une longue journée. Que faites-vous ?",
-    "labelMin": "Je reste seul(e) pour me ressourcer",
-    "labelMax": "J'appelle des amis pour sortir",
+    "question": "🥩 On vous propose une belle côté de bœuf au barbecue, vous souhaitez quelle cuisson ?",
+    "labelMin": "à point",
+    "labelMax": "saignante",
     "coefficient": 1.2
   },
   {
