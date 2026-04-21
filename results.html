@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz d'Extraversion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="card">
+    <h1>Résultats</h1>
+    <div class="results-score" id="final-score"></div>
+    <p class="results-label" id="result-label"></p>
+    <div class="comparison">
+      <div class="comparison-item">
+        <span>Votre auto-évaluation :</span>
+        <span id="self-score"></span>
+      </div>
+      <div class="comparison-item">
+        <span>Score calculé :</span>
+        <span id="calc-score"></span>
+      </div>
+    </div>
+    <p id="comparison-message"></p>
+    <button class="btn-primary" id="restart-btn">Recommencer</button>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

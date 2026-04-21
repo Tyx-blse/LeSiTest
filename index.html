@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz d'Extraversion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="card">
+    <h1>Quiz d'Extraversion</h1>
+    <p>Découvrez votre score d'extraversion à travers une série de questions. Commencez par évaluer votre ressenti personnel.</p>
+    <div class="slider-container">
+      <div class="slider-labels">
+        <span>Introverti(e)</span>
+        <span>Extraverti(e)</span>
+      </div>
+      <input type="range" id="self-slider" min="0" max="10" value="5" aria-label="Évaluez votre degré d'extraversion de 0 à 10">
+      <div class="slider-value" id="self-value">5</div>
+    </div>
+    <button class="btn-primary" id="start-btn">Commencer</button>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

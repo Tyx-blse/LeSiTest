@@ -1,0 +1,58 @@
+[
+  {
+    "id": 0,
+    "question": "Vous rentrez d'une longue journée. Que faites-vous ?",
+    "labelMin": "Je reste seul(e) pour me ressourcer",
+    "labelMax": "J'appelle des amis pour sortir",
+    "coefficient": 1.2
+  },
+  {
+    "id": 1,
+    "question": "Quel type de musique préférez-vous écouter ?",
+    "labelMin": "Ambiance calme, instrumentale",
+    "labelMax": "Musique rythmée et entraînante",
+    "coefficient": 0.8
+  },
+  {
+    "id": 2,
+    "question": "En soirée, vous préférez :",
+    "labelMin": "Une soirée tranquille à la maison",
+    "labelMax": "Sortir en boîte ou à un événement",
+    "coefficient": 1.5
+  },
+  {
+    "id": 3,
+    "question": "Dans un groupe, vous êtes plutôt :",
+    "labelMin": "L'observateur silencieux",
+    "labelMax": "Le centre de l'attention",
+    "coefficient": 1.0
+  },
+  {
+    "id": 4,
+    "question": "Quand vous avez une idée, vous :",
+    "labelMin": "La gardez pour vous jusqu'à ce qu'elle soit parfaite",
+    "labelMax": "La partagez immédiatement avec les autres",
+    "coefficient": 0.9
+  },
+  {
+    "id": 5,
+    "question": "Préférez-vous travailler :",
+    "labelMin": "Seul(e) dans un bureau calme",
+    "labelMax": "En équipe dynamique",
+    "coefficient": 1.3
+  },
+  {
+    "id": 6,
+    "question": "Lors d'une fête, vous :",
+    "labelMin": "Parlez avec une ou deux personnes",
+    "labelMax": "Circulez et discutez avec tout le monde",
+    "coefficient": 1.1
+  },
+  {
+    "id": 7,
+    "question": "Votre énergie vient de :",
+    "labelMin": "Moments de solitude",
+    "labelMax": "Interactions sociales",
+    "coefficient": 1.4
+  }
+]

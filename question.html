@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz d'Extraversion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="card">
+    <div class="progress-bar">
+      <div class="progress-bar-fill" id="progress-fill"></div>
+    </div>
+    <p class="question-text" id="question-text"></p>
+    <div class="slider-container">
+      <div class="slider-labels">
+        <span id="label-min"></span>
+        <span id="label-max"></span>
+      </div>
+      <input type="range" id="question-slider" min="0" max="10" value="5" aria-label="Répondez à la question de 0 à 10">
+      <div class="slider-value" id="question-value">5</div>
+    </div>
+    <button class="btn-primary" id="next-btn">Suivant</button>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
