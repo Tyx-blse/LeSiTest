@@ -1,58 +1,58 @@
 [
   {
     "id": 0,
-    "question": "🥩 On vous propose une belle côté de bœuf au barbecue, vous souhaitez quelle cuisson ?",
+    "question": "🥩 On te propose une belle côté de bœuf au barbecue, vous souhaitez quelle cuisson ?",
     "labelMin": "à point",
     "labelMax": "saignante",
-    "coefficient": 1.2
+    "coefficient": 2.0
   },
   {
     "id": 1,
-    "question": "Quel type de musique préférez-vous écouter ?",
-    "labelMin": "Ambiance calme, instrumentale",
-    "labelMax": "Musique rythmée et entraînante",
+    "question": "💊 Peux-tu avaler un médicament tout rond ?",
+    "labelMin": "Non 😱",
+    "labelMax": "oui 🙌",
     "coefficient": 0.8
   },
   {
     "id": 2,
-    "question": "En soirée, vous préférez :",
-    "labelMin": "Une soirée tranquille à la maison",
-    "labelMax": "Sortir en boîte ou à un événement",
-    "coefficient": 1.5
+    "question": "💦 Ton eau pref ? :",
+    "labelMin": "🍶 eau plate",
+    "labelMax": "🫧 eau pétillante",
+    "coefficient": 1.0
   },
   {
     "id": 3,
-    "question": "Dans un groupe, vous êtes plutôt :",
-    "labelMin": "L'observateur silencieux",
-    "labelMax": "Le centre de l'attention",
+    "question": "AU niveau pilosité capillaire ?",
+    "labelMin": "👱‍♂️ chevlure tel d'Artagnan",
+    "labelMax": "🧑‍🦲 ish plutôt Trévor de GTA",
     "coefficient": 1.0
   },
   {
     "id": 4,
-    "question": "Quand vous avez une idée, vous :",
-    "labelMin": "La gardez pour vous jusqu'à ce qu'elle soit parfaite",
-    "labelMax": "La partagez immédiatement avec les autres",
-    "coefficient": 0.9
+    "question": "🇺🇬 Si je t'offre des billets pour l'Ouganda t'es content ?",
+    "labelMin": "❌ Jamais de la vie je sais pas où c'est",
+    "labelMax": "🛫 Okay on part quand ?",
+    "coefficient": 1.2
   },
   {
     "id": 5,
-    "question": "Préférez-vous travailler :",
-    "labelMin": "Seul(e) dans un bureau calme",
-    "labelMax": "En équipe dynamique",
-    "coefficient": 1.3
+    "question": "🚻 Toilettes classiques ou urinoir ?",
+    "labelMin": "🚽 toilettes classiques",
+    "labelMax": "🎯 urinoir ",
+    "coefficient": 0.5
   },
   {
     "id": 6,
-    "question": "Lors d'une fête, vous :",
-    "labelMin": "Parlez avec une ou deux personnes",
-    "labelMax": "Circulez et discutez avec tout le monde",
-    "coefficient": 1.1
+    "question": "🐾 Chien ou Chat ?",
+    "labelMin": "🐱 Chaaaaat",
+    "labelMax": "🐩 Chiiiien",
+    "coefficient": 1.0
   },
   {
     "id": 7,
-    "question": "Votre énergie vient de :",
-    "labelMin": "Moments de solitude",
-    "labelMax": "Interactions sociales",
-    "coefficient": 1.4
+    "question": "🍆 Choux de Bruxelles, Aubergines, épinards ?",
+    "labelMin": "☠️ Je préfère mourir",
+    "labelMax": "🤩 Le trio de rêve",
+    "coefficient": 1.0
   }
 ]
